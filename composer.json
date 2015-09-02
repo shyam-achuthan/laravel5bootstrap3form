@@ -5,6 +5,11 @@
     "require": {
         "illuminate/html": "5.*"
     },
+    "autoload": {
+        "psr-4": {
+            "ShyamAchuthan\\Laravel5Bootstrap3Form\\": "src/"
+        }
+    },
     "authors": [
         {
             "name": "Shyam Achuthan",
