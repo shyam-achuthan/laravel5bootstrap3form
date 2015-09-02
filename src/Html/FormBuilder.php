@@ -1,5 +1,5 @@
 <?php
-namespace ShyamAchuthan\Laravel5Boostrap3Form\Html;
+namespace ShyamAchuthan\Laravel5Bootstrap3Form\Html;
 
 use Illuminate\Html\FormBuilder as IlluminateFormBuilder;
 
