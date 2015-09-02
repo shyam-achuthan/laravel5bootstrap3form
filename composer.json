@@ -1,7 +1,7 @@
 {
     "name": "shyam-achuthan/laravel5bootstrap3form",
     "license": "MIT",
-    "description": "Form builder for Laravel5 based on bootstrap3 form controls",
+    "description": "Form builder for Laravel5 based on bootstrap3 form group / controls",
     "require": {
         "illuminate/html": "5.*"
     },
