@@ -1,8 +1,8 @@
 <?php
 
-namespace ShyamAchuthan\Laravel5Boostrap3Form\Providers;
+namespace ShyamAchuthan\Laravel5Bootstrap3Form\Providers;
 
-use ShyamAchuthan\Laravel5Boostrap3Form\Html\FormBuilder as FormBuilder;
+use ShyamAchuthan\Laravel5Bootstrap3Form\Html\FormBuilder as FormBuilder;
 use Illuminate\Html\HtmlServiceProvider as IlluminateHtmlServiceProvider;
 
 class HtmlServiceProvider extends IlluminateHtmlServiceProvider {
