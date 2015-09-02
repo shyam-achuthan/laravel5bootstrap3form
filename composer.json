@@ -1,5 +1,6 @@
 {
     "name": "shyam-achuthan/laravel5bootstrap3form",
+    "license": "MIT",
     "description": "Form builder for Laravel5 based on bootstrap3 form controls",
     "require": {
         "illuminate/html": "5.*"
@@ -9,5 +10,6 @@
             "name": "Shyam Achuthan",
             "email": "shyam@shyamachuthan.com"
         }
-    ]
+    ],
+    "minimum-stability": "dev"
 }
