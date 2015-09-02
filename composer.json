@@ -1,0 +1,13 @@
+{
+    "name": "shyam-achuthan/laravel5bootstrap3form",
+    "description": "Form builder for Laravel5 based on bootstrap3 form controls",
+    "require": {
+        "illuminate/html": "5.*"
+    },
+    "authors": [
+        {
+            "name": "Shyam Achuthan",
+            "email": "shyam@shyamachuthan.com"
+        }
+    ]
+}
