@@ -52,6 +52,32 @@ class FormBuilder extends IlluminateFormBuilder {
         // the rest of the input set up.
         return $this->openGroup($name,$label_text).parent::input($type, $name, $value, $options).$this->closeGroup($name);
     }
+    
+    /**
+     * Create a Textarea field.
+     *
+     * 
+     * @param  string  $name
+     * @param  string  $value
+     * @param  array   $options
+     * @param  string  $label
+     * @return string
+     */
+    public function textarea($name, $value = null, $options = array(),$label='')
+    {
+
+
+        if((!self::$is_bootstrap) || in_array($name, self::$excluded))
+            return parent::input($type, $name, $value, $options);
+
+        $label_text = $label==''? $this->transformKey($name):$label;
+
+        $options = $this->appendClassToOptions('form-control', $options);
+
+        // Call the parent input method so that Laravel can handle
+        // the rest of the input set up.
+        return $this->openGroup($name,$label_text).parent::textarea($name, $value, $options).$this->closeGroup($name);
+    }
 
     /**
      * Create a select box field.
