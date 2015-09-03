@@ -26,6 +26,13 @@ Form::input($type,$name,$value,$options_array,$label)
      <input placeholder="Enter Username" class="form-control" name="username" type="text" value="" id="username"> 
      </div>
 
+###Output on validation error
+
+     <div class="form-group has-error">
+     <input placeholder="Enter Username" class="form-control" name="username" type="text" value="" id="username"> 
+     <p class="help-block">Username is required</p>
+     </div>
+
 ###Disable Bootstrap Form and use Illuminate Html default methods
   \Form::disable_bootstrap();
 ###Enable Bootstrap form after disabling
