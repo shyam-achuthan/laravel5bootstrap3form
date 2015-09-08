@@ -107,6 +107,11 @@ class FormBuilder extends IlluminateFormBuilder {
     public function openGroup($name, $label = null, $options = array())
     {
         $options = $this->appendClassToOptions('form-group', $options); 
+        
+        if($this->hasErrors($name))
+        {
+            $options = $this->appendClassToOptions('has-error', $options);
+        }
 
          $this->groupStack[] = $name;
         // adding the name to group stack to get the error formated text while closing the group
