@@ -108,6 +108,8 @@ class FormBuilder extends IlluminateFormBuilder {
     {
         $options = $this->appendClassToOptions('form-group', $options); 
         
+        //display boostrap error
+        
         if($this->hasErrors($name))
         {
             $options = $this->appendClassToOptions('has-error', $options);
