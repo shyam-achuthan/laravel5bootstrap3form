@@ -14,7 +14,7 @@ class HtmlServiceProvider extends IlluminateHtmlServiceProvider {
      */
     protected function registerFormBuilder()
     {
-        $app->singleton('form', function($app)
+        $this->app->singleton('form', function($app)
         {
             $form = new FormBuilder($app['html'], $app['url'], $app['session.store']->getToken());
 
