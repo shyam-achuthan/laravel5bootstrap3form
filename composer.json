@@ -3,7 +3,7 @@
     "license": "MIT",
     "description": "Form builder for Laravel5 based on bootstrap3 form group / controls",
     "require": {
-        "illuminate/html": "5.*"
+        "laravelcollective/html": "5.*"
     },
     "autoload": {
         "psr-4": {
